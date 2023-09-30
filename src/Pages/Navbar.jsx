@@ -1,12 +1,12 @@
 import React from 'react'
-import Logo from '../assets/color-logo-tinder.png'
 function Navbar() {
   return (
-    <div className=''>
-       <div>
-        <img src={Logo} alt="Logo" className=' h-8'/>
+    <nav className='flex justify-around float-left'>
+       <div className='logo text-4xl'>
+        Simply Flirt
        </div>
-    </div>
+       <button></button>
+    </nav>
   )
 }
 
